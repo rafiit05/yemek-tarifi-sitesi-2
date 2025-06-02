@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Yemek Tarifi Detayı</title>
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+  <header>
+    <h1>Yemek Tarifleri</h1>
+    <nav>
+      <ul>
+        <li><a href="index.html">Anasayfa</a></li>
+        <li><a href="tarifler.html">Tarifler</a></li>
+      </ul>
+    </nav>
+  </header>
+  <main id="tarif-icerik">
+    <div id="product-details"></div>
+  </main>
+  <footer>
+    <p>© 2025 Rafiya Zhorabek</p>
+  </footer>
+  <script>
+    const params = new URLSearchParams(window.location.search);
+    const id = parseInt(params.get("id"));
+
+    fetch("tarifler.json")
+      .then(res => res.json())
+      .then(products => {
+        const product = products.find(p => p.id === id);
+        const container = document.getElementById("product-details");
+        if (product) {
+          container.innerHTML = `
+            <h1>${product.name}</h1>
+            <img src="${product.image}" alt="${product.name}" width="200">
+            <p>${product.description}</p>
+            <strong>${product.price}</strong>
+          `;
+        } else {
+          container.textContent = "tarif bulunmadi";
+        }
+      });
+  </script>
+</body>
+</html>
+

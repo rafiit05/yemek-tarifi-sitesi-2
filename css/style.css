@@ -1,0 +1,141 @@
+
+  h1 {
+    color: #333333;
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  /* Меню стилі */
+  .menu {
+    background-color: #333;
+    padding: 10px;
+    text-align: center;
+  }
+  
+  .menu a {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+  }
+  
+  .menu a:hover {
+    color: #ff6347;
+  }
+  
+  header, footer {
+    background-color: #ff7043;
+    color: white;
+    text-align: center;
+    width: 100%;
+  }
+
+  header {
+    position: fixed; 
+    top: 0;
+  } 
+
+  footer {
+    position: fixed; 
+    bottom: 0;
+  }
+  
+  
+  nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+  }
+  
+  nav a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  main {
+    max-width: 600px;
+    margin: auto;
+    background-color: white;
+    padding: 2rem;
+    margin-top: 200px;
+    border-radius: 8px;
+    margin-bottom: 100px;
+  }
+  
+  form input {
+    width: 100%;
+    padding: 0.5rem;
+    margin-top: 0.5rem;
+  }
+  
+  button {
+    margin-top: 1rem;
+    padding: 0.5rem 1rem;
+    background-color: #ff7043;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+  nav {
+    background-color: #333;
+    padding: 10px 0;
+    text-align: center;
+  }
+  nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 20px;
+    font-size: 18px;
+    transition: 0.3s;
+  }
+  nav a:hover {
+    color: #ffd700; /* hover эффект */
+  }
+  .card {
+    background-color: white;
+    padding: 20px;
+    margin: 20px auto;
+    width: 80%;
+    max-width: 500px;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+    text-align: center;
+  }
+  .card img {
+    width: 100%;
+    border-radius: 10px;
+  }
+
+  body {
+    background-image: url("../img/background.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  #product-list img {
+    width: 150px;
+    height: 150px;
+    margin-right: 16px;
+    border-radius: 8px;
+  }
+
+  #search {
+    width: 250px;
+    padding: 8px 16px;
+  }
+
+  #product-list ul, #product-list ul li {
+    list-style: none;
+  }
+
+  #product-list a {
+    display: flex;
+    margin-bottom: 16px;
+    align-items: center;
+  }

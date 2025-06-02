@@ -1,0 +1,31 @@
+[
+    {
+      "id": 1,
+      "name": "🍲 Mercimek Çorbası",
+      "description": "Mercimek çorbası için kırmızı mercimek, soğan, havuç, patates kullanılır. Tüm malzemeler birlikte haşlanır, blenderdan geçirilir ve baharatlarla tatlandırılır.",
+      "price": "30₽",
+      "image": "img/mercimek.jpg"
+    },
+    {
+      "id": 2,
+      "name": "🍰 Çikolatalı Kek",
+      "description": "Yumurta, şeker, süt, un, kakao ve kabartma tozu karıştırılır. Önceden ısıtılmış fırında pişirilir. Üzerine eritilmiş çikolata dökülerek servis edilir.",
+      "price": "25₽",
+      "image": "img/kek.jpg"
+    },
+    {
+      "id": 3,
+      "name": "🍝 Spagetti Bolonez",
+      "description": "Kıyma, soğan, sarımsak ve domates sosu ile hazırlanan bolonez sos spagetti ile karıştırılır. Üzerine rendelenmiş peynir eklenerek servis edilir.",
+      "price": "25₽",
+      "image": "img/spagetti.jpg"
+    },
+    {
+        "id": 4,
+        "name": "🍝 test",
+        "description": "Kıyma, soğan, sarımsak ve domates sosu ile hazırlanan bolonez sos spagetti ile karıştırılır. Üzerine rendelenmiş peynir eklenerek servis edilir.",
+        "price": "25₽",
+        "image": "img/spagetti.jpg"
+      }
+  ]
+  
